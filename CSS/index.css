@@ -393,8 +393,8 @@ footer h2{
 }
 
 .footCol{
-    width: 30vw;
-    object-fit: cover;
+    width: 28vw;
+    
     
     }
 
@@ -407,7 +407,7 @@ footer h2{
 }
 
 .footCol h3{
-    padding: 0.8rem 0;
+    
     
 }
 
@@ -418,12 +418,15 @@ footer h2{
 
 .nomapell{
     display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding-top: 1.5rem;
     
     
 }
 
 .nombres{
-    width: 115%;
+    width: 100%;
     height:5vh;
     font-size: 1rem;
     border: none;
@@ -431,13 +434,25 @@ footer h2{
 
 }
 
+.a{
+    width: 35%;
+    
+}
+
+
+
+.b{
+    width: 60%;
+   
+}
+
 .email{
-    width: 115%;
+    width: 100% ;
     height:5vh;
     font-size: 1rem;
     border: none;
     text-decoration: none;
-    margin-left: 2.75vw;
+    
 }
 
 #area{
@@ -471,6 +486,12 @@ footer h2{
 #bol{
     width: 30vw ;
 }
+
+.faceinst{
+    background-color: grey;
+    height: 5vh;
+}
+
 
 
 
