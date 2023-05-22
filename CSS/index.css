@@ -394,6 +394,9 @@ footer h2{
 
 .footCol{
     width: 28vw;
+    display: flex;
+    flex-direction: column;
+    gap: 1.3rem;
     
     
     }
@@ -414,13 +417,14 @@ footer h2{
 .footCol p{
     width: 30vw;
     
+    
 }
 
 .nomapell{
     display: flex;
     justify-content: space-between;
     width: 100%;
-    padding-top: 1.5rem;
+    
     
     
 }
@@ -490,6 +494,15 @@ footer h2{
 .faceinst{
     background-color: grey;
     height: 5vh;
+}
+
+.bi-facebook {
+    width: 40%;
+    height: 130%;
+}
+
+.footer input{
+    border: 0;
 }
 
 
